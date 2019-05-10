@@ -27,5 +27,8 @@ points_huizong_100：
 pollution_preprocess：
 读入"上海环境监测-非国控站.xlsx"。删除缺失数据；为PM2.5、二氧化氮、风速、气温、气压设置阈值；删除少于8小时的数据，产生日平均数据库和月平均数据库.csv
 
+pollution_merge：
+将监测站信息和污染物数据库合并，产生用于回归的最终数据库。
+
 pollution_regression：
-将监测站信息和污染物数据库合并，产生用于回归的最终数据库。调用python中的逐步回归（stepwise）和随机森林，分别对日平均数据和月平均数据进行回归。
+调用python中的逐步回归（stepwise）和随机森林，分别对日平均数据和月平均数据进行回归。
