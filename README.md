@@ -30,5 +30,8 @@ pollution_preprocess_week：
 pollution_merge：
 将监测站信息和污染物数据库合并，产生用于回归的最终数据库。
 
+pollution_regression_stepwise：
+排除共线性变量后，运用stepwise策略，挑选进入多元线性回归的变量，分别对日平均数据（含/不含月份虚拟变量）、周平均数据和月平均数据（含/不含月份虚拟变量）进行回归。
+
 pollution_regression_RF：
-调用python中sklearn的随机森林包，分别对日平均数据（含/不含月份虚拟变量）和月平均数据（含/不含月份虚拟变量）进行回归。
+调用python中sklearn的随机森林包，分别对日平均数据（含/不含月份虚拟变量）、周平均数据和月平均数据（含/不含月份虚拟变量）进行回归。
