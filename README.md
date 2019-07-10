@@ -62,9 +62,9 @@ mapping_huizong:
 将监测点信息、污染物数据、GIS中整理得到的数据合并。
 
 pollution_prediction_LUR:
-利用LUR，根据挑选出的重要变量，预测上海市1km✖1km的污染地图。
+利用LUR，根据挑选出的重要变量，预测未知点的污染物浓度，并绘制上海市1km✖1km的污染地图。
 
 pollution_prediction_RF:
-利用RF，根据挑选出的重要变量，预测上海市1km✖1km的污染地图。
+利用RF，根据挑选出的重要变量，预测未知点的污染物浓度，并绘制上海市1km✖1km的污染地图。
 
 
