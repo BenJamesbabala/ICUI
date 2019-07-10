@@ -55,14 +55,14 @@ U-shape:
 
 ####################回归映射###########################
 
-mapping_database:
+mapping_select_date:
 确定挑选某一天的数据。
 
 mapping_huizong:
 将监测点信息、污染物数据、GIS中整理得到的数据合并。
 
-pollution_prediction_stepwise:
-利用stepwise，根据挑选出的重要变量，预测上海市1km✖1km的污染地图。
+pollution_prediction_LUR:
+利用LUR，根据挑选出的重要变量，预测上海市1km✖1km的污染地图。
 
 pollution_prediction_RF:
 利用RF，根据挑选出的重要变量，预测上海市1km✖1km的污染地图。
